@@ -89,9 +89,11 @@ class CountMinSketch(object):
 
 
 if __name__ == "__main__":
-    hash_num = 5
+    hash_num = 5  ## depth = 5
     width = 28
-    cardinality = 100000
+    ## cardinality = 210000
+    ## epsilon = 0.1
+    ## delta = 0.01
 
     words = [
         "melody",
