@@ -1,7 +1,7 @@
 import random
 
 
-class Solution(object):
+class ReservoirSampling(object):
     def sample(self, k, data):
         """
         :type k: int
@@ -29,5 +29,5 @@ if __name__ == "__main__":
     k = 50
     data = list(range(1, 100))
 
-    sol = Solution()
+    sol = ReservoirSampling()
     sol.sample(k, data)
